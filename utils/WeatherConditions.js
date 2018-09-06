@@ -1,26 +1,26 @@
 export const weatherConditions = {
   Rain: {
-    color: '#005BEA',
+    color: 'slategrey',
     title: 'Rainy',
-    subtitle: 'Get a cup of tea',
+    subtitle: 'Get a cup of tea!',
     icon: 'weather-rainy'
   },
   Clear: {
-    color: '#f7b733',
+    color: 'gold',
     title: 'So Sunny',
     subtitle: 'It is hurting my eyes',
     icon: 'weather-sunny'
   },
   Thunderstorm: {
-    color: '#616161',
+    color: 'black',
     title: 'A Storm is coming',
     subtitle: 'Because God is angry',
     icon: 'weather-lightning'
   },
   Clouds: {
-    color: '#1F1C2C',
+    color: 'grey',
     title: 'Clouds',
-    subtitle: 'Everywhere',
+    subtitle: 'Be the sun breaking through the clouds!',
     icon: 'weather-cloudy'
   },
 
@@ -31,19 +31,19 @@ export const weatherConditions = {
     icon: 'weather-snowy'
   },
   Drizzle: {
-    color: '#076585',
+    color: 'darkgrey',
     title: 'Drizzle',
     subtitle: 'Partially raining...',
     icon: 'weather-hail'
   },
   Haze: {
-    color: '#66A6FF',
+    color: 'dimgrey',
     title: 'Haze',
-    subtitle: 'Another name for Partial Raining',
+    subtitle: 'Partial Raining',
     icon: 'weather-hail'
   },
   Mist: {
-    color: '#3CD3AD',
+    color: 'slategray',
     title: 'Mist',
     subtitle: "Don't roam in forests!",
     icon: 'weather-fog'

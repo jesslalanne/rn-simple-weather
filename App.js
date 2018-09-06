@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, Animated } from 'react-native';
+import { StyleSheet, Text, View, Animated , Image} from 'react-native';
 
 import { DangerZone } from 'expo';
 const { Lottie } = DangerZone;
@@ -54,7 +54,10 @@ export default class App extends React.Component {
           </View>
         ) : (
           <Weather weather={weatherCondition} temperature={temperature} />
+          
+          
         )}
+          <Text style={styles.footer}>©Jessica Lalanne - 2018</Text>
       </View>
     );
   }
@@ -73,5 +76,10 @@ const styles = StyleSheet.create({
   },
   loadingText: {
     fontSize: 30
+  },
+  footer: {
+    backgroundColor: 'indianred',
+    textAlign: 'center',
+    color: 'white'
   }
 });
