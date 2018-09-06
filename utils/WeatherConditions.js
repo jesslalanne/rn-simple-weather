@@ -1,7 +1,7 @@
 export const weatherConditions = {
   Rain: {
     color: '#005BEA',
-    title: 'Raining',
+    title: 'Rainy',
     subtitle: 'Get a cup of tea',
     icon: 'weather-rainy'
   },
